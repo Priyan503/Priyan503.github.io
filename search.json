@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "hello testing\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Creating My Blog with Quarto\n\n\n\nQuarto\n\nBlogging\n\nGitHub Pages\n\n\n\nSetting up my personal blog using Quarto and GitHub Pages.\n\n\n\n\n\n\nJun 27, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/create-blog/index.html",
+    "href": "blog/create-blog/index.html",
+    "title": "Creating My Blog with Quarto",
+    "section": "",
+    "text": "Note\n\n\n\nThis is not the only way there are tons of approaches. I created it this way because it suits me and matches my knowledge at this time."
+  },
+  {
+    "objectID": "blog/create-blog/index.html#how-to-create-a-blog",
+    "href": "blog/create-blog/index.html#how-to-create-a-blog",
+    "title": "Creating My Blog with Quarto",
+    "section": "",
+    "text": "Note\n\n\n\nThis is not the only way there are tons of approaches. I created it this way because it suits me and matches my knowledge at this time."
+  },
+  {
+    "objectID": "blog/create-blog/index.html#why-choose-this",
+    "href": "blog/create-blog/index.html#why-choose-this",
+    "title": "Creating My Blog with Quarto",
+    "section": "Why choose this?",
+    "text": "Why choose this?\n\nEasy to convert Markdown files and Jupyter notebooks into websites.\nSupports code execution, mathematical equations, and interactive content.\nWorks well with GitHub Pages for free hosting.\nProvides a clean and professional structure for technical blogs.\n\n\n\n\n\n\n\nImportant\n\n\n\nI am setting this up on a Debian-based Linux distribution. The installation steps will differ slightly for other operating systems."
+  },
+  {
+    "objectID": "blog/create-blog/index.html#step-1-install-quarto",
+    "href": "blog/create-blog/index.html#step-1-install-quarto",
+    "title": "Creating My Blog with Quarto",
+    "section": "Step 1: Install Quarto",
+    "text": "Step 1: Install Quarto\ncurl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb\nsudo apt install ./quarto-linux-amd64.deb\nVerify the installation:\nquarto --version"
+  },
+  {
+    "objectID": "blog/create-blog/index.html#step-2-create-a-new-website",
+    "href": "blog/create-blog/index.html#step-2-create-a-new-website",
+    "title": "Creating My Blog with Quarto",
+    "section": "Step 2: Create a new website",
+    "text": "Step 2: Create a new website\nquarto create project website my-blog\ncd my-blog\nquarto preview"
+  },
+  {
+    "objectID": "blog/create-blog/index.html#step-3-coustimize",
+    "href": "blog/create-blog/index.html#step-3-coustimize",
+    "title": "Creating My Blog with Quarto",
+    "section": "Step 3: Coustimize",
+    "text": "Step 3: Coustimize\nEdit index.qmd,\n  ---\n  title: \"Creating My Blog with Quarto\"\n  date: 2026-06-27\n  description: \"Setting up my personal blog using Quarto and GitHub Pages.\"\n  categories:\n    - Quarto\n    - Blogging\n    - GitHub Pages\n  image: Quatro_blog.jpg\n  ---\nthis is yaml for this webpage"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Priyan A.",
+    "section": "",
+    "text": "Welcome\nexplore"
+  }
+]
