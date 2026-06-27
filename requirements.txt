@@ -1,2 +1,2 @@
-jupytere
+jupyter
 nbconvert
