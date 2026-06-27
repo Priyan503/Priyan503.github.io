@@ -1,0 +1,13 @@
+---
+title: "Projects"
+subtitle: "A collection of engineering, full-stack, and hardware systems."
+listing:
+  contents: 
+    - "*/index.qmd" # Scans all subfolders for index.qmd files
+  type: grid
+  sort: "date desc"
+  categories: true # Enables tags/filtering at the top right
+---
+
+
+### hello testing

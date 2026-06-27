@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Priyan A."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: projects/index.qmd
+        text: Projects
+      - href: blog/index.qmd
+        text: Blog
+      - href: notes/index.qmd
+        text: Notes
+    right:
+      - href: resume.qmd
+        text: Resume
+      - icon: github
+        href: https://github.com/Priyan503
+
+format:
+  html:
+    from: markdown+mark
+    theme: Cyborg
+    css: styles.css
+    toc: true
