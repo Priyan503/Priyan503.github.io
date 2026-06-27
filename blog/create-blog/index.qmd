@@ -6,7 +6,7 @@ categories:
   - Quarto
   - Blogging
   - GitHub Pages
-image: Quatro_blog.jpg
+image: ../../assets/images/Quatro_blog.jpg
 ---
 
 
